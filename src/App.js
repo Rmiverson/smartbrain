@@ -1,4 +1,4 @@
-import './scss/App.css';
+import './scss/App.scss';
 
 import Nav from './components/Nav';
 import Logo from './components/Logo';
