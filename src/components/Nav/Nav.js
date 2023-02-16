@@ -1,9 +1,10 @@
 import React from 'react'
+import './Nav.scss'
 
 const Nav = () => {
   return (
     <nav className='nav'>
-      <div className='f3 link dim black underline pa3 pointer'>Sign Out</div>
+      <p className='nav-item'>Sign Out</p>
     </nav>
   )
 }

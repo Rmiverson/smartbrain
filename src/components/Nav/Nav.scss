@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 15px 20px 15px 0px;
+
+  .nav-item {
+    display: flex;
+    font-size: larger;
+    font-weight: 500;
+    background-color: white;
+    margin: 0px;
+    padding: 13px;
+    border-radius: 10px;
+
+    &:hover {
+      cursor: pointer;
+      background-color: rgb(214, 69, 69);
+      color: white;
+    }
+  }
+}

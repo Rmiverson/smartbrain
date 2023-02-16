@@ -1,0 +1,36 @@
+.image-link-form {
+  display: flex;
+  flex-direction: column;
+  width: 75vw;
+  margin: 15px;
+  color: white;
+
+  .form-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 10px 5px 5px rgb(61, 61, 61);
+    padding: 25px;
+
+    input {
+      width: 95%;
+    }
+
+    button {
+      width: 150px;
+      height: 30px;
+      background-color: rgb(255, 192, 203);
+      border: 0px;
+      border-radius: 10px;
+      font-weight: 500;
+      margin-top: 15px;
+
+      &:hover {
+        cursor: pointer;
+        background-color: rgb(255, 150, 173);
+      }
+    }
+  }
+}
