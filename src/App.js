@@ -6,6 +6,8 @@ import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm.js';
 import FaceRecognition from './components/FaceRecognition/FaceRecognition.js';
 import Rank from './components/Rank/Rank.js'
 
+import ParticlesBg from 'particles-bg';
+
 function App() {
   return (
     <div className="App">
@@ -14,6 +16,7 @@ function App() {
       <Rank />
       <ImageLinkForm />
       <FaceRecognition />
+      <ParticlesBg type='polygon' bg={true} />
     </div>
   );
 }
