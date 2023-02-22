@@ -1,15 +1,15 @@
 import React from 'react'
 import './ImageLinkForm.scss'
 
-const ImageLinkForm = () => {
+const ImageLinkForm = ({ onInputChange, onSubmit }) => {
     return (
         <div className='image-link-form'>
             <p>
                 {'This Magic Brain will detect faces in your pictures, give it a try!'}
             </p>
             <div className='form-area'>
-                <input type='text' placeholder='image link...'/>
-                <button>Detect</button>
+                <input onChange={onInputChange} type='text' placeholder='image link...'/>
+                <button onClick={onSubmit}>Detect</button>
             </div>
         </div>
     )
